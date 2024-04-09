@@ -1,0 +1,91 @@
+body {
+    background-color: #0d0d0d;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#pagina-testes {
+    text-align: center;
+    padding: 3px 30px 60px 30px;
+    background-color: #fff;
+}
+
+#testes {
+    font-size: 2.5em;
+    padding: 10px 0px;
+    margin: 20px 180px;
+    border-radius: 30px;
+    color: #eeeeeead;
+    background-color: brown;
+}
+
+#conteudo {
+    text-align: justify;
+    padding: 3px 30px 60px 30px;
+    background-color: #fff;
+}
+
+#conteudo h2 {
+    font-size: 2em;
+    color: rgb(167, 36, 36);
+}
+
+#conteudo > ul {
+    padding: 0px 0px 30px 16px;
+}
+
+#tabela {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 40px 40px 40px;
+    border-top: solid 2px brown;
+    border-bottom: solid 2px brown;
+}
+
+#tabela .titulo-tab {
+    color: rgb(167, 36, 36);
+    font-size: 1.3em;
+}
+
+#tabela .linha-tabela {
+    background-color: #fff;
+    align-items: center;
+}
+
+.tab-dificuldades {
+    border-radius: 10px;
+    background-color: #000000a6;
+}
+
+#tarefas > #tarefa {
+    border-top-left-radius: 8px;
+}
+
+#tarefas > #exemplo {
+    border-top-right-radius: 8px;
+}
+
+#impossivel > #linha-imp {
+    border-bottom-left-radius: 8px;
+}
+
+#impossivel > #linha-imp-txt {
+    border-bottom-right-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px 30px;
+    background-color: #fff;
+}
+
+footer p{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: rgb(167, 36, 36);
+}

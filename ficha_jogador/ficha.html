@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de Jogador</title>
+
+    <link rel="stylesheet" href="./src/css/estilo.css">
+</head>
+
+<body>
+    <h3>Criando seu Personagem</h3>
+    <form action="/" id="formulario">
+        <fieldset>
+            <legend>Ficha de Personagem</legend>
+
+            <div id="contem-nome">
+                <p>
+                    <input type="text" id="txtpersonagem">
+                    <label for="txtpersonagem">Personagem</label>
+                </p>
+                <p>
+                    <input type="text" id="txtjogador">
+                    <label for="txtjogador">Jogador</label>
+                </p>
+            </div>
+
+            <div id="raca-classe">
+                <p>
+                    <input type="text" class="txtinfo" id="raca-play">
+                    <label for="raca-play">Raça</label>
+                </p>
+                
+                <p>
+                    <input type="text" class="txtinfo" id="origem-play">
+                    <label for="origem-play">Origem</label>
+                </p>
+
+                <p>
+                    <input type="text" class="txtinfo" id="classe-play">
+                    <label for="classe-play">Classe&Nível</label>
+                </p>
+
+                <p>
+                    <input type="text" class="txtinfo" id="divindade-play">
+                    <label for="divindade-play">Divindade</label>
+                </p>
+            </div>
+
+            <input type="button" value="Criar" onclick="criar()">
+        </fieldset>
+    </form>
+
+    <div id="ficha"></div>
+
+    <script src="./src/script.js"></script>
+</body>
+</html>
