@@ -1,4 +1,4 @@
-function criar_lista() {
+/*function criar_lista() {
     var listaNomes = ["Wemerson", "Alice", "Davi"]
     
 
@@ -7,7 +7,7 @@ function criar_lista() {
     for (let pessoa in listaNomes) {
         resultado.innerHTML = `Pessoa ${pessoa} é ${listaNomes[pessoa]}`
     }
-}
+}*/
 
 var numero = [1, 2, 3, 4, 5]
 numero.push(6, 7, 8, 9, 10)
