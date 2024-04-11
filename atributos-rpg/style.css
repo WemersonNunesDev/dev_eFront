@@ -1,0 +1,8 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#lista-resultados {
+    width: 120px;
+    padding: 5px;
+}
