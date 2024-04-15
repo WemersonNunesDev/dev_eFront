@@ -1,0 +1,14 @@
+.opcoes {
+    display: flex;
+    gap: 30px;
+}
+
+.opcoes > .item-opcao {
+    padding: 10px 15px;
+    border-radius: 24px;
+    background-color: rgba(0, 0, 0, 0.13);
+}
+
+.item-opcao.selected {
+    background-color: aquamarine;
+}

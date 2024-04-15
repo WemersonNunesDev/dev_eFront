@@ -1,0 +1,117 @@
+:root {
+    --cortitle: #e5e5e5;
+    --cortext: #818892;
+    --corbg: #141519;
+    --corvitri: #1f2630;
+    --corava: #272e38;
+    --corbtn: #fc7613;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--corbg);
+}
+
+#conteudo {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 200px;
+    margin: auto;
+}
+
+#formulario {
+    color: var(--cortext);
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 410px;
+    border-radius: 24px;
+    background-color: var(--corvitri);
+}
+
+#star>#icon-star {
+    width: 24px;
+    padding: 16px;
+    margin: 24px 8px;
+    border-radius: 32px;
+    background-color: var(--corava);
+}
+
+#star>#resposta {
+    opacity: 0;
+    text-align: center;
+    padding: 6px;
+    margin: 0 110px;
+    border-radius: 24px;
+    color: var(--corbtn);
+    background-color: var(--corava);
+}
+
+#nota>#resposta.res {
+    opacity: 1;
+}
+
+#formulario>h1 {
+    font-size: 2em;
+    padding: 16px 8px 0px 8px;
+    color: var(--cortitle);
+}
+
+#formulario>p {
+    font-size: 18px;
+    padding: 16px 8px 36px 8px;
+}
+
+#avaliacao {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+#avaliacao>.nota {
+    font-size: 18px;
+    padding: 18px 23px;
+    margin: 8px;
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+    color: var(--cortext);
+    background-color: var(--corava);
+}
+
+#avaliacao > .ativo{
+    color: var(--cortitle);
+    background-color: #798697;
+}
+
+#avaliacao>.nota:hover {
+    transition: 0.3s;
+    color: var(--cortitle);
+    background-color: var(--corbtn);
+}
+
+#avaliacao>.nota:active {
+    transition: 0.1s;
+    color: var(--cortitle);
+    background-color: #798697;
+}
+
+#btn-avaliar {
+    font-size: 18px;
+    padding: 16px 0;
+    margin: 16px 16px 0 16px;
+    border: none;
+    border-radius: 28px;
+    color: var(--cortitle);
+    background-color: var(--corbtn);
+}
+
+#btn-avaliar:hover {
+    transition: 0.3s;
+    color: var(--corbtn);
+    background-color: var(--cortitle);
+}
