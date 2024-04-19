@@ -1,49 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.btn-de-racas {
-    padding: 10px;
-    background-color: gray;
+#conteudo {
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
 
-.btn-de-racas .btn-raca .txt-habilidade {
-    margin-top: 10px;
-	display: flex;
-	flex-direction: column;
-	gap: 15px;
-	transition: all 0.3s ease-in;
-	display: none;
-	opacity: 0;
+#login {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
 }
 
-.btn-raca {
-    padding: 10px 30px;
-    font-size: 18px;
-    border-radius: 10px;
-    color: #888787;
-    background-color: #0d0d0d;
-    border: solid 3px #89e4b2;
+#login > h1 {
+    margin-bottom: 24px;
 }
 
-.btn-de-racas .btn-raca .txt-habilidade.ativo {
-	display: flex;
-	opacity: 1;
+#login > #txtemail, #txtpassword, #btn-logar {
+    border-radius: 6px;
+    
+} 
+
+#login > #txtemail, #txtpassword {
+    padding: 14px;
+    margin-bottom: 16px;
+    border: 1px solid #9b9b9b;
+    width: 240px;
 }
 
-.txt-habilidade {
-    font-size: 16px;
-    margin-right: 40px;
-    columns: 3;
-}
-
-.txt-habilidade > li {
-    list-style-type: none;
-    border: solid 1px ;
-    padding: 5px 20px;
-    border-radius: 10px;
-}
-
-.txt-habilidade > li:hover {
-    background-color: aqua;
+#login > #btn-logar {
+    padding: 16px;
+    margin-top: 16px;
+    border: none;
+    width: 260px;
+    color: #fefaf1;
+    background-color: rgb(45, 45, 212);
 }

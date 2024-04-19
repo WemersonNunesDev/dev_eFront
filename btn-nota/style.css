@@ -1,0 +1,33 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(65, 65, 156);
+}
+
+#avaliacao > .btn {
+    padding: 11px 16px;
+    margin-top: 24px;
+    margin-right: 16px;
+    border: none;
+    border-radius: 24px;
+}
+
+#avaliacao > .btn.ativo {
+    color: rgb(250, 123, 33);
+    background-color: #000;
+}
+
+#avaliacao > .btn:hover {
+    cursor: pointer;
+    color: #fefaf1;
+    background-color: rgb(250, 123, 33);
+}
+
+#avaliacao > .btn:active {
+    color: rgb(250, 123, 33);
+    background-color: #c4c4c4;
+}

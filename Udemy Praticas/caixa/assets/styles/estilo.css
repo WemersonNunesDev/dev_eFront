@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    max-width: 100rem;
+    margin: auto;
+}
+
+#sobre-o-jogo {
+    padding: 2rem;
+    text-align: center;
+    width: 800px;
+}
+
+#sobre-o-jogo > h1 {
+    padding: 1.2rem;
+    margin-bottom: 24px;
+    text-align: center;
+    color: #fefaf1;
+    background-color: #b33453;
+}
+
+#sobre-o-jogo > .text {
+    padding: 8px 24px;
+    text-align: justify;
+    border: 1px solid #808080a8;
+}
+
+.text > ul {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    padding-top: 24px;
+}
+
+.text ul > li {
+    list-style-type: none;
+}
+
+li > a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #b33453;
+}

@@ -1,7 +1,33 @@
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(164, 164, 224);
 }
 
-#btnraca {
-    transition: 3s;
+#conteudo {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.botao {
+    text-align: center;
+    padding: 20px;
+    margin-top: 80px;
+    width: 600px;
+    background-color: #fefaf1;
+}
+
+.botao > #btnentrada {
+    font-size: 1.1em;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 16px;
+    color: #b2b4cf;
+    background-color: rgb(84, 84, 121);
+}
+
+.botao > #resultado {
+    font-size: 1.1em;
+    padding: 10px 20px 50px 20px;
 }
