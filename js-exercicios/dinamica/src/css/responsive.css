@@ -1,0 +1,40 @@
+@media screen and (max-width: 1260px) {
+    #informacao {
+        margin: 0 112px;
+    }
+
+    .text-more {
+        margin: 0 96px;
+    }
+}
+
+@media screen and (max-width: 1028px) {
+    #cabecalho > h1 {
+        font-size: 1.6em;
+        padding: 24px 16px;
+    }
+
+    #informacao {
+        gap: 16px;
+        margin: 0 64px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #informacao {
+        margin: 0 32px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #informacao {
+        gap: 10px;
+        margin: 0 16px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    #informacao {
+        margin: 0;
+    }
+}

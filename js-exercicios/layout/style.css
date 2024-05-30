@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cabecalho {
+    height: 80px;
+    text-align: center;
+    font-size: 1.5em;
+    color: #fefaf1;
+    background-color: #060107;
+}
+
+#cabecalho>h1 {
+    padding: 16px 0;
+}
+
+#conteudo {
+    display: flex;
+    justify-content: center;
+}
+
+#home {
+    display: flex;
+    gap: 16px;
+    width: 900px;
+    margin: 80px 0;
+}
+
+.efeito {
+    box-shadow: 7px 7px 3px 1px #00000091;
+}
+
+#id-card {
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #060107;
+}
+
+#id-card > h2 {
+    margin: 8px 0 4px 0;
+    font-size: 1.3em;
+    color: #fefaf1;
+}
+
+#id-card > h3 {
+    margin: 16px 0 8px 0;
+    font-size: 1em;
+    font-weight: normal;
+    color: #d1d1d1;
+}
+
+.informacao {
+    padding: 8px;
+    border: 1px solid #060107;
+    border-radius: 8px;
+}

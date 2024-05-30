@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao {
+    border: none;
+    background: transparent;
+}
+
+header {
+    height: 60px;
+    color: #fefaf1;
+    background-color: black;
+}
+
+.status {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 20px 0;
+}
+
+#questionario {
+    margin: 64px 128px;
+}
+
+#questionario > p {
+    padding-bottom: 24px;
+}
+
+.resposta {
+    display: flex;
+    gap: 8px;
+    width: 64px;
+    padding: 8px;
+    border-radius: 16px;
+    background-color: #b9b9b949;
+}
+
+.resposta > p {
+    padding: 4px 0;
+}
+
+.botao:hover {
+    cursor: pointer;
+}

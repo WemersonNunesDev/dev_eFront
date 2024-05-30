@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(172, 25, 25);
+}
+
+#cabecalho {
+    display: flex;
+    justify-content: space-evenly;
+    height: 80px;
+    border-bottom: 1px solid #000;
+}
+
+#cabecalho > #text-cabecalho {
+    display: flex;
+    gap: 16px;
+    padding: 20px 0;
+}
+
+#cabecalho > #menu {
+    padding: 30px 32px;
+}
+
+#menu > a {
+    padding: 0 8px;
+}
+
+#conteudo {
+    display: flex;
+    justify-content: center;
+}
+
+.info-classe {
+    margin: 64px 0;
+    width: 700px;
+    text-align: justify;
+}
+
+.info-classe > h1{
+    font-size: 3em;
+    padding-bottom: 8px;
+}
+
+.info-classe h2 {
+    padding-top: 24px;
+}
+
+.info-classe .txtlegenda {
+    font-style: italic;
+    font-size: 0.9em;
+    color: rgb(63, 63, 63);
+    font-weight: bolder;
+    font: italic bolder ;
+}
+
+.info-classe .text {
+    padding: 8px 0;
+}
+
+.text > .textforte {
+    color: rgb(172, 25, 25);
+}
+
+#text-poderes-classe ul > li {
+    list-style-type: none;
+    padding: 8px 8px 0 8px;
+}
+
+li > .textforte {
+    font-style: italic;
+}

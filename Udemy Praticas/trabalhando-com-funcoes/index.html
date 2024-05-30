@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com funções</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="cabecalho">
+        <div id="titulo">
+            <h1>Funções em JS</h1>
+            <hr>
+        </div>
+        <p>Vamos dar uma olhada em parâmetros dentro das funções!</p>
+    </header>
+    <section class="info">
+        <p>Parâmetros nomeados em uma função nos dão a liberdade de passar o seu valor depois. Veja abaixo um exemplo.
+        </p>
+
+        <div id="resultado"></div>
+
+        <p>
+            O resultado acima (8) deve-se a partir do seguinte código:
+        </p>
+
+        <code id="codigo">
+            <ol>
+                <li>function multiplicador(num1, num2) {
+                    return num1 * num2;
+                };</li>
+                <li>let calculo = multiplicador(4, 2)</li>
+                <li>document.getElementById('resultado').innerHTML = `${calculo}`</li>
+            </ol>
+        </code>
+        <hr>
+    </section>
+
+    <sectionc class="info">
+        <input type="number" name="inputUser" id="resposta-usuario" placeholder="Digite um número...">
+        
+        <button id="registrar">Add</button>
+
+        <div id="numero-digitado"></div>
+    </sectionc>
+
+    <script src="./script/app.js"></script>
+</body>
+
+</html>

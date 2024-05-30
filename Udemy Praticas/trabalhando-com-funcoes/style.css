@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cabecalho {
+    display: flex;
+    height: 60px;
+    border-bottom: 1px solid #000;
+}
+
+#cabecalho > p {
+    font-size: 16px;
+    padding: 20px 8px;
+}
+
+#titulo {
+    display: flex;
+    gap: 16px;
+    padding: 16px 8px;
+}
+
+#titulo > h1 {
+    font-size: 24px;
+}
+
+.info {
+    padding: 24px 256px;
+    text-align: justify;
+}
+
+.info > #resultado {
+    padding: 8px 0;
+}
+
+#codigo {
+    padding: 8px;
+}
+
+#resposta-usuario {
+    padding: 8px;
+}
+
+#registrar {
+    padding: 8px;
+}
